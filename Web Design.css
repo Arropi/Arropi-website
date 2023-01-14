@@ -1,0 +1,98 @@
+*,
+html {
+padding: 0;
+margin: 0;
+}
+
+.all-div {
+}
+
+.div-navbar {
+background-color: rgb(80, 16, 47);
+height: 8vh ;
+}
+
+
+.ul-navbar {
+height: 8vh;
+display: flex;
+justify-content: end ;
+align-items: center;
+}
+
+.li-navbar {
+list-style: none;
+padding: 10px;
+margin: 5px;
+font-size: 30px;
+font-weight: 700;
+}
+
+.li-navbar :hover {
+    background-color: darkgreen;
+    transition: 0,4s ease-in-out;
+    transition-delay: 0,3s;
+    border-radius: 2px;
+}
+
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.judul-content{
+color: #FFFFFF;
+background: #b8b8b8;
+text-shadow: 4px 3px 0 #7A7A7A;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 15vh;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+
+.div-content {
+background-color: #b8b8b8;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+}
+
+.a-content {
+background-color: azure;
+color: black;
+text-decoration: none;
+font-size: 30px;
+height: 300px;
+width: 700px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 30px;
+box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.foto { 
+width: 40%;
+height: 40%;
+border-radius: 5px;
+}
+
+.div-footer {
+background-color: darkslateblue;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 6vh;
+}
+
+.h1-footer {
+font-size: 40px;
+color: #FFFFFF;
+}
